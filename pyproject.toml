@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "k8s-autogen"
+version = "0.1.0"
+description = ""
+authors = ["Megan Wolf <megan@defenseunicorns.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pyautogen = "^0.2.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
